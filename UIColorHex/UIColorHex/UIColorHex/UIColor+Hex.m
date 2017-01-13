@@ -20,4 +20,16 @@
     return [UIColor colorWithHex:hexNum alpha:1.0f];
 }
 
++ (UIColor *)colorWithHexString:(NSString *)hexString {
+    
+    return [UIColor colorWithHexString:hexString alpha:1.0f];
+}
+
++ (UIColor *)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha {
+    
+    NSInteger hexNum = [hexString integerValue];
+    
+    return [UIColor colorWithHex:hexNum alpha:alpha];
+}
+
 @end

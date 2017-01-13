@@ -22,6 +22,10 @@
     redView.backgroundColor = [UIColor colorWithHex:0x174b5f];
     [self.view addSubview:redView];
     
+    UIView *secondeView = [[UIView alloc] initWithFrame:CGRectMake(100, 280, 100, 100)];
+    secondeView.backgroundColor = [UIColor colorWithHexString:@"238973"];
+    [self.view addSubview:secondeView];
+    
 }
 
 

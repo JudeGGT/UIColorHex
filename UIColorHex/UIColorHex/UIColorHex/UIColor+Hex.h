@@ -30,4 +30,23 @@
  */
 + (UIColor *)colorWithHex:(NSInteger)hexNum;
 
+
+/**
+ 将十六进制字符串颜色值转换成RGB
+
+ @param hexString 十六进制颜色值字符串
+ @return 颜色
+ */
++ (UIColor *)colorWithHexString:(NSString *)hexString;
+
+
+/**
+ 将十六进制字符串颜色值转换成RGB
+
+ @param hexString 十六进制颜色值字符串
+ @param alpha 透明度
+ @return 颜色
+ */
++ (UIColor *)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha;
+
 @end
